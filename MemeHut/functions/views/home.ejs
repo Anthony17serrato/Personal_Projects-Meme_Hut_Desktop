@@ -1,0 +1,60 @@
+<% include ./partials/header %>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<div class="mdc-snackbar" style="margin-bottom: 70px" 
+aria-live="assertive"
+aria-atomic="true"
+aria-hidden="true">
+<div class="mdc-snackbar__text"></div>
+<div class="mdc-snackbar__action-wrapper">
+  <button type="button" class="mdc-snackbar__action-button"></button>
+</div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-custom navbar-expand-sm navbar-dark" style="background-color: #ef6c00; padding: 0">
+  <!-- <a class="navbar-brand" href="#">User</a> -->
+  <div style="margin: auto; padding-right: 12%;">
+    <ul class="navbar-nav mobile">
+      <li style="margin-right: 6%" class="nav-item text-center">
+        <a href="#" data-toggle="collapse" class="nav-link" data-target="#one"><i class="material-icons">home</i><br>Home</a>
+      </li>
+      <li style="margin-right: 3%" class="nav-item text-center">
+        <a href="#" data-toggle="collapse" class="nav-link" data-target="#one"><i class="material-icons">message</i><br>Messages</a>
+      </li>
+      <li style="margin-left: 3%" class="nav-item text-center">
+        <a href="#" data-toggle="collapse" data-target="#one" class="nav-link"><i class="material-icons">notifications</i><br>Notifications</a>
+      </li>
+      <li style="margin-left: 6%" class="nav-item text-center">
+        <a href="#" data-toggle="collapse" class="nav-link" data-target="#one"><i class="material-icons">account_circle</i><br>Profile</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<button class="mdc-fab mdc-fab--extended">
+  <span class="material-icons mdc-fab__icon">add</span>
+  <span class="mdc-fab__label">Create</span>
+</button>
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<!-- check if user is verified -->
+<% if(!verify) { %>
+<script type="text/javascript">
+const MDCSnackbar = mdc.snackbar.MDCSnackbar;
+const MDCSnackbarFoundation = mdc.snackbar.MDCSnackbarFoundation;
+
+const snackbar = new MDCSnackbar(document.querySelector('.mdc-snackbar'));
+const dataObj = {
+  message: "You have not verified your E-mail",
+  actionText: 'Verify',
+  timeout: 10000,
+  multiline: true,
+  actionOnBottom: true,
+  actionHandler: function () {
+    console.log('my cool function');
+  }
+};
+snackbar.show(dataObj);
+</script>
+<% } %>
+<!--  -->
+<% include ./partials/footer %>

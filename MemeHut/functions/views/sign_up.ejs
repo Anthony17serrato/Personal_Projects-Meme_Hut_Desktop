@@ -1,0 +1,13 @@
+<% include ./partials/header %>
+<h1 style="text-align: center;">Sign up for the worlds fastest growing Meme Social Media!</h1>
+<div class="container">	
+	<div style="width: 50%; margin: 25px auto;">
+		<form action="/sign_up" method="post">
+			<input class="form-control form-group" type="text" name="username" placeholder="username">
+			<input class="form-control form-group" name="email" type="email" placeholder="E-Mail">
+			<input class="form-control form-group" type="password" name="password" placeholder="password">
+			<input class="btn btn-primary" type="submit" value="Sign Up!">
+		</form>
+	</div>
+</div>
+<% include ./partials/footer %>

@@ -1,0 +1,164 @@
+[debug] [2018-09-24T06:07:46.760Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T06:07:46.762Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anthony\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T06:07:46.763Z] CLI Version:   4.0.3
+[debug] [2018-09-24T06:07:46.763Z] Platform:      win32
+[debug] [2018-09-24T06:07:46.763Z] Node Version:  v8.11.3
+[debug] [2018-09-24T06:07:46.764Z] Time:          Sun Sep 23 2018 23:07:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:46.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T06:07:46.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T06:07:46.791Z] > authorizing via signed-in user
+[debug] [2018-09-24T06:07:46.795Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/untitled-39c4d  
+  
+ Sun Sep 23 2018 23:07:46 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:47.364Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:07:47.366Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/untitled-39c4d/tokens  
+  
+ Sun Sep 23 2018 23:07:47 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:47.723Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:07:47.724Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/untitled-39c4d  
+  
+ Sun Sep 23 2018 23:07:47 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:48.217Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\anthony\desktop\Meme Hut\MemeHut'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T06:07:49.228Z] Fetching environment
+[debug] [2018-09-24T06:07:49.231Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211:getServerAppConfig  
+  
+ Sun Sep 23 2018 23:07:49 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:49.232Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211/clients/_:getWebAppConfig  
+  
+ Sun Sep 23 2018 23:07:49 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:07:49.684Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:07:49.684Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-24T06:07:49.793Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-09-24T06:07:52.213Z] Parsing function triggers
+[info] [hosting] Rewriting /home to local function app
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-09-24T06:07:53.203Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'connect-flash'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'connect-flash'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-09-24T06:07:53.204Z] 
+[info] [hosting] Rewriting /login to local function app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-09-24T06:17:57.880Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T06:17:57.883Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anthony\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-09-24T06:17:57.883Z] CLI Version:   4.0.3
+[debug] [2018-09-24T06:17:57.883Z] Platform:      win32
+[debug] [2018-09-24T06:17:57.883Z] Node Version:  v8.11.3
+[debug] [2018-09-24T06:17:57.884Z] Time:          Sun Sep 23 2018 23:17:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:17:57.884Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T06:17:57.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T06:17:57.898Z] > authorizing via signed-in user
+[debug] [2018-09-24T06:17:57.901Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/untitled-39c4d  
+  
+ Sun Sep 23 2018 23:17:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:17:58.511Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:17:58.513Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/untitled-39c4d/tokens  
+  
+ Sun Sep 23 2018 23:17:58 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:17:58.891Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:17:58.892Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/untitled-39c4d  
+  
+ Sun Sep 23 2018 23:17:58 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:17:59.394Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\anthony\desktop\Meme Hut\MemeHut'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-24T06:18:00.455Z] Fetching environment
+[debug] [2018-09-24T06:18:00.459Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211:getServerAppConfig  
+  
+ Sun Sep 23 2018 23:18:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:18:00.460Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211/clients/_:getWebAppConfig  
+  
+ Sun Sep 23 2018 23:18:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-24T06:18:00.888Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T06:18:00.888Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-24T06:18:01.077Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-09-24T06:18:03.935Z] Parsing function triggers
+[info] [hosting] Rewriting /login to local function app
+[info] +  functions: app: http://localhost:5001/untitled-39c4d/us-central1/app
+[debug] [2018-10-14T08:00:19.417Z] ----------------------------------------------------------------------
+[debug] [2018-10-14T08:00:19.420Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anthony\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-14T08:00:19.421Z] CLI Version:   4.0.3
+[debug] [2018-10-14T08:00:19.421Z] Platform:      win32
+[debug] [2018-10-14T08:00:19.421Z] Node Version:  v8.11.3
+[debug] [2018-10-14T08:00:19.422Z] Time:          Sun Oct 14 2018 01:00:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:19.422Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-14T08:00:19.439Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-14T08:00:19.440Z] > authorizing via signed-in user
+[debug] [2018-10-14T08:00:19.446Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-14T08:00:19.446Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/mBQzLsWVmbl_HE3qxRy2Ih7rBqypbnbKd_Y25LYaT84',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 14 2018 01:00:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:19.969Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-14T08:00:19.978Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/untitled-39c4d  
+  
+ Sun Oct 14 2018 01:00:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:20.564Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-14T08:00:20.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/untitled-39c4d/tokens  
+  
+ Sun Oct 14 2018 01:00:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:20.913Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-14T08:00:20.914Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/untitled-39c4d  
+  
+ Sun Oct 14 2018 01:00:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:21.563Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\anthony\Desktop\Meme Hut\MemeHut'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-14T08:00:22.854Z] Fetching environment
+[debug] [2018-10-14T08:00:22.859Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211:getServerAppConfig  
+  
+ Sun Oct 14 2018 01:00:22 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:22.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1074439140211/clients/_:getWebAppConfig  
+  
+ Sun Oct 14 2018 01:00:22 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-10-14T08:00:23.453Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-14T08:00:23.454Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-14T08:00:23.558Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-10-14T08:00:26.993Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/untitled-39c4d/us-central1/app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /stylesheets/bundle.css to local function app
+[info] [hosting] Rewriting /stylesheets/bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /hi/bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /hi/bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /stylesheets/bundle.css to local function app
+[info] [hosting] Rewriting /home to local function app
+[info] [hosting] Rewriting /stylesheets/bundle.css to local function app

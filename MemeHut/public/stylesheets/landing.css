@@ -1,0 +1,33 @@
+/*body {
+	background: url('/header.jpg');
+	background-size: cover;
+	background-position: center;
+}*/
+body  {
+    text-align:center;
+    background-image: url("../drawables/header.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-animation: backgroundScroll 20s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation: backgroundScroll 20s linear 1;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+#welcome {
+	margin-top: 15%;
+}
+.jumbotron {
+    background: rgba(255, 255, 255, 0.9);
+}
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1530px -750px;}
+}
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1530px -750px;}
+}
+
